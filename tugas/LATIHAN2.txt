@@ -1,0 +1,51 @@
+EXPEKTASI
+
+
+
+HOME
+PRODUCT
+GALLERY
+BLOG
+INVENTORY
+
+<a href="https://www.google.com/" target="_blank">Link Google</a>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1><center>EXPEKTASI</center></h1>
+<title></title>
+</head>
+<body>
+    <h1></h1>
+    <hr />
+    <a href="latihan1.html">HOME</a>
+    <br/>
+    <a href="latihan1.html">PRODUCT</a>
+    <br/>
+    <a href="latihan2.html">GALLERY</a>
+    <br/>
+    <a href="latihan2.html">BLOG</a>
+    <br/>
+    <a href="latihan2.html">INVENTORY</a>
+</body>
+</html>
+
+https://bahasaweb.com/membuat-garis-horizontal-di-html/
+
+
+
+
+
+<ul>
+        <li>Makan</li>
+        <li>Minum</li>
+        <li>Mandi</li>
+    </ul>
+
+
+<font color="green">Ini Tulisan Warna Hijau</font><br>
+
+

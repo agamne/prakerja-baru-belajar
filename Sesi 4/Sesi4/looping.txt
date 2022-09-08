@@ -1,0 +1,30 @@
+STORE "full level" with 0
+
+WHILE "full level" < 5
+    ADD "full level" with 1
+
+DISPLAY "I am full"
+
+
+0
+1
+2
+3
+4
+5
+--STOP--
+====================================
+
+STORE "angka" with 1        -> inisiasi, kita mulai dari mana
+
+WHILE "angka" <=1000        -> kondisi, kapan kita berhenti
+    DISPLAY "angka"    
+    ADD "angka" with 1      -> iterasi, dilakukan agar kita mencapai kondisi
+
+1
+2
+3
+....
+1000
+--STOP--
+

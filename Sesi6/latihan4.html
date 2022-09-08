@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Menghapus element</title>
+</head>
+<body>
+    <h2 id="judul2">Hapus Saya!</h2>
+
+    <h2 id="judul3">Hapus Judul 3!</h2>
+    <script>
+        document.getElementById("judul2").remove();
+
+        let judul3 = document.getElementById("judul3");
+        judul3.remove();
+        document.body.append(judul3);
+        console.log(judul3);
+    </script>
+</body>
+</html>

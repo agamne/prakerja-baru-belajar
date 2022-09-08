@@ -1,0 +1,36 @@
+angka genap = angka habis dibagi 2
+sedangkan angka ganjil = tidak habis dibagi 2
+
+MODULO %
+
+10 % 3 = 1
+20 % 2 = 0
+21 % 2 = 1
+7 % 5 = 2
+3 % 2 = 1
+6 % 2 = 0
+
+=======================================
+
+STORE "angka" with 1
+WHILE "angka" <=10
+    DISPLAY "angka"
+    CALCULATE "angka" modulo 2
+    STORE "sisa" as result of calculation
+    IF "sisa" equal to 0
+        DISPLAY "EVEN!"
+    ELSE 
+        DISPLAY "ODD!"
+    ADD "angka" with 1
+
+
+1 ODD!
+2 EVEN!
+3
+4
+5
+6
+7
+8
+9
+10

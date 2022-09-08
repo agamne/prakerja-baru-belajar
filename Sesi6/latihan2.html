@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>querySelector</title>
+</head>
+<body>
+    <h1 class="judul">Judul</h1>
+    <h2 class="judul">Judul 2</h2>
+    <button onclick="ganti_judul()">Ganti Judul</button>
+
+    <script>
+        function ganti_judul() {
+            document.querySelector("h2.judul").innerHTML= "Title";
+            document.querySelector("h2.judul").style.color= "blue";
+        }
+    </script>
+</body>
+</html>
